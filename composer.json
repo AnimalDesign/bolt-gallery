@@ -1,0 +1,28 @@
+{
+    "name": "animal/gallery",
+    "description": "",
+    "type": "bolt-extension",
+    "keywords": [
+    ],
+    "require": {
+        "bolt/bolt": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Esterl, ANIMAL",
+            "email": "studio@animal.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Animal\\Gallery\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-assets": "web",
+        "bolt-class": "Bolt\\Extension\\Animal\\Gallery\\GalleryExtension"
+    }
+}
